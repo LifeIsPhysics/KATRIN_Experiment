@@ -14,7 +14,7 @@ I will neglect these effects to save computational time, but we will see that it
 
 ## Overview: Models and Mathematics
 
-'''math
+$$
     E_{tot} = E + m_{e}  \text{total electron energy}\\
     p = \sqrt{E^{2}_{tot} - m^{2}_{e}} \text{electron momentum}\\
     \beta = \frac{E_{tot}}{p} \text{relativistic beta factor}\\
@@ -22,7 +22,7 @@ I will neglect these effects to save computational time, but we will see that it
             constant $\alpha$} \\
     \end{aligned}
 \end{equation*}
-'''
+$$
 
 **Fermi function**
 $$
