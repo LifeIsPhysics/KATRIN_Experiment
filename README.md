@@ -15,12 +15,10 @@ I will neglect these effects to save computational time, but we will see that it
 ## Overview: Models and Mathematics
 
 '''math
-\begin{equation*}
-    \begin{aligned}
-            & E_{tot} = E + m_{e} && \text{total electron energy}\\
-            & p = \sqrt{E^{2}_{tot} - m^{2}_{e}} && \text{electron momentum}\\
-            & \beta = \frac{E_{tot}}{p} && \text{relativistic beta factor}\\
-            & \eta = \frac{2\cdot a}{\beta} && \text{number of protons in $T_{2}$, fine structure 
+    E_{tot} = E + m_{e}  \text{total electron energy}\\
+    p = \sqrt{E^{2}_{tot} - m^{2}_{e}} \text{electron momentum}\\
+    \beta = \frac{E_{tot}}{p} \text{relativistic beta factor}\\
+    \eta = \frac{2\cdot a}{\beta} \text{number of protons in $T_{2}$, fine structure 
             constant $\alpha$} \\
     \end{aligned}
 \end{equation*}
