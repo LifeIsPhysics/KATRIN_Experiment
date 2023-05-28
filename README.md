@@ -14,7 +14,7 @@ I will neglect these effects to save computational time, but we will see that it
 
 ## Overview: Models and Mathematics
 
-\begin{equation*}
+$$
     \begin{aligned}
             & E_{tot} = E + m_{e} && \text{total electron energy}\\
             & p = \sqrt{E^{2}_{tot} - m^{2}_{e}} && \text{electron momentum}\\
@@ -22,40 +22,40 @@ I will neglect these effects to save computational time, but we will see that it
             & \eta = \frac{2\cdot a}{\beta} && \text{number of protons in $T_{2}$, fine structure 
             constant $\alpha$} \\
     \end{aligned}
-\end{equation*}
+$$
 
 **Fermi function**
-\begin{equation*}
+$$
     F(Z',E) = \frac{2\pi \eta}{1-e^{-2\pi \eta}}\cdot (1.002037 - 0.001427\beta)
-\end{equation*}
+$$
 
 **Differential Spectrum**
-\begin{equation*}
+$$
     \frac{d\Gamma}{dE} = C\cdot F(Z',E)\cdot p\cdot (E+m_{e})\cdot \left(E-E_0\right)\cdot         \sqrt{\left(E-E_0\right)^{2} - m_{\nu}^{2}}\cdot \Theta(E_0 - E - m_{\nu})\
-\end{equation*}
+$$
 
 **Transmission function**
-\begin{equation*}
+$$
     T(qU,E) =
     \begin{cases}
       0& \text {$E<qU$} \\ 
       \frac{1-\sqrt{1-f\cdot \frac{B_{source}}{B_{ana}}\frac{E-qU}{E}} }{1-\sqrt{1-\frac{B_{source}}{B_{ana}}}}& \text{$qU\leq E\leq qU\frac{f\cdot B_{max}}{f\cdot B_{max}-B_{ana}}$} \\
       1& \text{$E>qU\frac{f\cdot B_{max}}{f\cdot B_{max}-B_{ana}}$}
     \end{cases}
-\end{equation*}
+$$
 
-\begin{equation*}
+$$
     \text{with } f = \frac{\frac{E-qU}{m_e}+2}{\frac{E}{m_e}+2}\ .
-\end{equation*}
+$$
 
 ### Models
 
 **Integral Model**
-\begin{equation*}
+$$
     R(qU) = N\cdot \int_{qU}^{E_{0}} \frac{d\Gamma}{dE}(E;m_{\nu}^{2},E_{0})\cdot T(qU,E) \,dE + B,
-\end{equation*}
+$$
 
 **Differential Modell**
-\begin{equation*}
+$$
     M(E) = N\cdot \frac{d\Gamma}{dE}(E; m_\nu^2,E_0) + B\ ,
-\end{equation*}
+$$
