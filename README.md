@@ -20,7 +20,6 @@ The models and mathematics can be found in the jupyter notebook.
 For this project a anaconda/miniconda3 is needed to build a local conda environment on your local system.
 ```bash
 cd conda
-conda env create
 conda env create -f environment.yml
 conda activate neutrino
 ```
