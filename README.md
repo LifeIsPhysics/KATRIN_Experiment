@@ -17,4 +17,18 @@ I will neglect these effects to save computational time, but we will see that it
 The models and mathematics can be found in the jupyter notebook.
 
 ## Usage
-Comming soon...
+For this project a anaconda/miniconda3 is needed to build a local conda environment on your local system.
+```bash
+cd conda
+conda env create
+conda env create -f environment.yml
+conda activate neutrino
+```
+You can then open the Jupyter Notebook and run the individual cells one-by-one. Note that the simulation  
+can take a very long time to execute at the step, where $10^5$ random poisson distribution are generated 
+(On the author's machine this process took ~3 hours).  
+
+If you want to remove the environment
+```bash
+conda remove --name neutrino --all
+```
