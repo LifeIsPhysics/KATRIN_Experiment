@@ -1,5 +1,5 @@
 # KATRIN_Experiment
-This project replicates the measurements of the Karlsruhe Tritium Neutrino experiment (KATRIN) using Monte Carlo data and Data science.  
+This monte-carlo simulation project replicates the measurements of the Karlsruhe Tritium Neutrino experiment (KATRIN) using Monte Carlo data and Data science.  
 
 ## Introduction
 
@@ -15,3 +15,6 @@ I will neglect these effects to save computational time, but we will see that it
 ## Overview: Models and Mathematics
 
 The models and mathematics can be found in the jupyter notebook.
+
+## Usage
+Comming soon...
